@@ -5,6 +5,22 @@
   width: 100%;
 }
 
+.back-button {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 0.5rem;
+  font-weight: bold;
+  font-size: 1.25rem; 
+  border-radius: 9999px;
+  transition: all 0.2s;
+  background-color: rgba(253, 198, 0, 0.3);
+}
+
+.back-button:hover {
+  background-color: rgba(253, 198, 0, 0.4);
+}
+
 .title {
   flex: 1;
   font-size: var(--font-size-large);
