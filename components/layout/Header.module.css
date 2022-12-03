@@ -12,13 +12,14 @@
   padding: 0.5rem;
   font-weight: bold;
   font-size: 1.25rem; 
+  line-height: 1.75rem;
   border-radius: 9999px;
   transition: all 0.2s;
-  background-color: rgba(253, 198, 0, 0.3);
+  background-color: rgba(253, 198, 0, 0.3) !important;
 }
 
 .back-button:hover {
-  background-color: rgba(253, 198, 0, 0.4);
+  background-color: rgba(253, 198, 0, 0.4) !important;
 }
 
 .title {
